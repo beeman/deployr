@@ -26,11 +26,17 @@ angular.module('loopbackApp')
       name: 'Home',
       sref: 'app.home'
     } , {
-      name: 'Items',
-      sref: 'app.items.list'
-    } , {
       name: 'Projects',
       sref: 'app.projects.list'
+    } , {
+      name: 'Deployments',
+      sref: 'app.deployments.list'
+    } , {
+      name: 'Targets',
+      sref: 'app.targets.list'
+    } , {
+      name: 'Repositories',
+      sref: 'app.repositories.list'
     }];
 
     $scope.toplinks = [{
