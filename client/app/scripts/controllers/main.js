@@ -29,8 +29,8 @@ angular.module('loopbackApp')
       name: 'Items',
       sref: 'app.items.list'
     } , {
-      name: 'Notes',
-      sref: 'app.notes.list'
+      name: 'Projects',
+      sref: 'app.projects.list'
     }];
 
     $scope.toplinks = [{

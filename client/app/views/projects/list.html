@@ -1,7 +1,7 @@
 
 
 <div class='list-group'>
-  <div ng-repeat="item in notes" class="list-group-item">
+  <div ng-repeat="item in projects" class="list-group-item">
 
     <span class="pull-right btn-group" style="margin-top: 7px;">
       <a href="" class="btn btn-sm btn-default" ui-sref="^.edit({id: item.id})">
@@ -13,15 +13,15 @@
     </span>
 
     <h4 class="list-group-item-heading">
-      <a href="" ui-sref="^.view({id: item.id})">{{item.title}}</a>
+      <a href="" ui-sref="^.view({id: item.id})">{{item.name}}</a>
     </h4>
-    <p class="list-group-item-text">{{item.body}}</p>
+    <p class="list-group-item-text">{{item | json}}</p>
 
   </div>
 
-  <div ng-show="!notes.length" class="list-group-item">
+  <div ng-show="!projects.length" class="list-group-item">
     <h4 class="list-group-item-heading">
-      There are no notes
+      There are no projects
     </h4>
     <p class="list-group-item-text">Click <a href="" ui-sref="^.add">here</a> to add one!</p>
   </div>
