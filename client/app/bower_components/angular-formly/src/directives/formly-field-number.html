@@ -1,0 +1,16 @@
+<div>
+	<label for="{{id}}">
+		{{options.label || 'Number'}}
+		{{options.required ? '*' : ''}}
+	</label>
+	<input type="number"
+		   id="{{id}}"
+		   placeholder="{{options.placeholder}}"
+		   ng-required="options.required"
+		   ng-disabled="options.disabled"
+		   min="{{options.min}}"
+		   max="{{options.max}}"
+		   ng-minlength="{{options.minlength}}"
+		   ng-maxlength="{{options.maxlength}}"
+		   ng-model="value">
+</div>

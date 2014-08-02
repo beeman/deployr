@@ -1,0 +1,12 @@
+<div>
+	<label for="{{id}}">
+		{{options.label || 'Email'}}
+		{{options.required ? '*' : ''}}
+	</label>
+	<input type="email"
+		   id="{{id}}"
+		   placeholder="{{options.placeholder}}"
+		   ng-required="options.required"
+		   ng-disabled="options.disabled"
+		   ng-model="value">
+</div>

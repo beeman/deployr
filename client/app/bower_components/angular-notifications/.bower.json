@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "https://github.com/Derekries"
+  },
+  "name": "angular-notifications",
+  "version": "0.2.0",
+  "main": "notification.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "homepage": "https://github.com/beeman/angular-notifications",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "a5e53054783e0206a9770ab351f0f9d0c752291d"
+  },
+  "_source": "git://github.com/beeman/angular-notifications.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/beeman/angular-notifications.git"
+}

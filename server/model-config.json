@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Target": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Repository": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Project": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Deployment": {
+    "dataSource": "db",
+    "public": true
+  }
+}
