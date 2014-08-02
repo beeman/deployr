@@ -24,7 +24,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+      "project": {
+        "type": "belongsTo",
+        "model": "Project",
+        "foreignKey": "id"
+      } ,
+      "repository": {
+        "type": "belongsTo",
+        "model": "Repository",
+        "foreignKey": "id"
+      } ,
+      "target": {
+        "type": "belongsTo",
+        "model": "Target",
+        "foreignKey": "id"
+      }
+    },
   "acls": [],
   "methods": []
 }
